@@ -8,9 +8,9 @@ Durant mon talk, j'utilise Code Maat trouvable ici :  \
 [https://github.com/adamtornhill/code-maat](https://github.com/adamtornhill/code-maat) pour analyser les logs git. \
 J'utilise également Cloc pour les calculs de complexité : \
 [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc). \
-Pour les scripts Python fournis par Adam Tornhill, j'utilise les versions corrigées et remise en conformité avec Python 3  par Romain Berthon :  \
+Pour les scripts Python fournis par Adam Tornhill, j'utilise les versions corrigées et remises en conformité avec Python 3 par Romain Berthon :  \
 [https://github.com/RomainTrm/YourCodeAsACrimeSceneExercices/tree/main/scripts](https://github.com/RomainTrm/YourCodeAsACrimeSceneExercices/tree/main/scripts) \
-Par ailleurs, Adam Tornhill a également proposé une mise à jour des mêmess scripts sur son propre Github : \
+Par ailleurs, Adam Tornhill a également proposé une mise à jour des mêmes scripts sur son propre Github : \
 [https://github.com/adamtornhill/maat-scripts/tree/python3](https://github.com/adamtornhill/maat-scripts/tree/python3)
 
 Les différentes sont directement copiées ou très fortement inspirées de ce qu'on trouve dans le livre mais les voici dans l'ordre d'apparition: \
