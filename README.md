@@ -20,11 +20,11 @@ java -jar code-maat-1.0.4-standalone.jar -c git -l maat_evo.log -a revisions > m
 .\cloc ./{MyLocalFolder} --by-file --csv --quiet --report-file=maat_lines.csv
 
 **WARNING** \
-Sous Windows, cloc va utiliser les backslash comme séparateur dans les chemins, incompatibles avec 
-les analyses suivantes!
+Sous Windows, cloc va utiliser les backslash comme séparateur dans les chemins, incompatibles avec les analyses suivantes!
 
 python ./scripts/merge_comp_freqs.py maat_freqs.csv maat_lines.csv \
-python ./scripts/csv_as_enclosure_json.py --structure maat_lines.csv --weights maat_freqs.csv --weightcolumn 1 > report.json
+python ./scripts/csv_as_enclosure_json.py --structure maat_lines.csv --weights maat_freqs.csv --weightcolumn 1 > report.json \
+Ce fichier json est à placer dans le dossier Visualization et est appelé directement par l'index.html
 
 python ./scripts/git_complexity_trend.py --start {StartCommit} --end {EndCommit} --file {FileName} > {fileNameexport.csv}
 
